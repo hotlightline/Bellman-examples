@@ -1,0 +1,22 @@
+[package]
+authors = ["HUHUHA <hq99g1@gmail.com"]
+description = "examples for bellman zk-SNARK library"
+license = "MIT/Apache-2.0"
+name = "bellman-example"
+version = "0.1.0"
+
+[dependencies]
+rand = "0.4"
+bit-vec = "0.4.4"
+pairing = { version = "0.16.0"}
+byteorder = "1"
+bellman = "0.6.0"
+rand_core = "0.5"
+ff = { version = "0.6.0", package="ff"}
+group = { version = "0.2.0" }
+typenum = "1.11.2"
+
+
+
+[lib]
+
